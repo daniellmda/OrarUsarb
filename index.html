@@ -30,100 +30,114 @@
     </header>
     <section>
         <div class="container">
-            <input type="text" value="IS11Z" class="search">
-            <div class="search-found">
-                <p>IS11Z</p>
+            <div class="left-side">
+                <input type="text" value="IS11Z" class="search">
+                <div class="search-found">
+                    <p>IS11Z</p>
+                </div>
+                <div>
+                    <label for="select">
+                        <select id="select">
+                            <option disabled="" selected="" hidden="">Alege ziua</option>
+                            <option value="">Luni</option>
+                            <option value="">Marți</option>
+                            <option value="">Miercuri</option>
+                            <option value="">Joi</option>
+                            <option value="">Vineri</option>
+                            <option value="">Sâmbătă</option>
+                            <option value="">Duminica</option>
+                        </select>
+                    </label>
+                    <label for="select2">
+                        <select id="select2">
+                            <option disabled="" selected="" hidden="">Alege saptamana</option>
+                            <option value="">11 (6.11.2023 - 12.11.2023)</option>
+                            <option value="">12 (13.11.2023 - 19.11.2023)</option>
+                            <option value="">13 (20.11.2023 - 26.11.2023)</option>
+                            <option value="">14 (27.11.2023 - 3.12.2023)</option>
+                            <option value="">15 (4.11.2023 - 10.12.2023)</option>
+                        </select>
+                </div>
+                <div class="orar-calendar">
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-important">1</div>
+                    <div class="tabel-important">2</div>
+                    <div class="tabel-important">3</div>
+                    <div class="tabel-important">4</div>
+                    <div class="tabel-important">5</div>
+                    <div class="tabel-important">6</div>
+                    <div class="tabel-important">7</div>
+                    <div class="tabel-important"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-important long"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                    <div class="tabel-neimportant"></div>
+                </div>
+                <p class="legend">P - Prelegere S - Seminar L - Laborator PC - Proiect de Curs</p>
+                <p class="legend">EP - Evaluare periodică C - Consultație E - Examinare R - Reexaminare</p>
+                <p class="legend">SP - Seminar prealabil ST - Seminar de totalizare</p>
+                <div class="buttons">
+                    <div class="button button-first">Descarcă orar</div>
+                    <div class=" button button-second">Examene</div>
+                    <div class="button button-last">Planificare</div>
+                </div>
+                <div class="timeout">
+                    Orarul nu lucrează între 23:00 și 3:00
+                    
+                </div>
             </div>
-            <div>
-                <label for="select">
-                    <select id="select">
-                        <option disabled="" selected="" hidden="">Alege ziua</option>
-                        <option value="">Luni</option>
-                        <option value="">Marți</option>
-                        <option value="">Miercuri</option>
-                        <option value="">Joi</option>
-                        <option value="">Vineri</option>
-                        <option value="">Sâmbătă</option>
-                        <option value="">Duminica</option>
-                    </select>
-                </label>
-                <label for="select2">
-                    <select id="select2">
-                        <option disabled="" selected="" hidden="">Alege saptamana</option>
-                        <option value="">11 (6.11.2023 - 12.11.2023)</option>
-                        <option value="">12 (13.11.2023 - 19.11.2023)(</option>
-                        <option value="">13 (20.11.2023 - 26.11.2023)</option>
-                        <option value="">14 (27.11.2023 - 3.12.2023)</option>
-                        <option value="">15 (4.11.2023 - 10.12.2023)</option>
-                    </select>
-            </div>
-            <div class="orar-calendar">
-                <div class="tabel-important long"></div>
-                <div class="tabel-important">1</div>
-                <div class="tabel-important">2</div>
-                <div class="tabel-important">3</div>
-                <div class="tabel-important">4</div>
-                <div class="tabel-important">5</div>
-                <div class="tabel-important">6</div>
-                <div class="tabel-important">7</div>
-                <div class="tabel-important"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-important long"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-                <div class="tabel-neimportant"></div>
-
-            </div>
+           
         </div>
     </section>
 </body>

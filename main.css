@@ -65,7 +65,7 @@ section {
 .search {
     width: 456px;
     height: 40px;
-    padding-left: 20px;
+    padding-left: 30px;
     font-weight: 700;
     color: #666666;
 }
@@ -105,6 +105,12 @@ select {
     background-repeat: no-repeat;
     background-position: 100% 50%;
 }
+.search {
+    background-image: url('img/search.png');
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    background-size: 5%;
+}
 .orar-calendar {
     width: 456px;
     margin-top: 25px;
@@ -125,4 +131,47 @@ select {
 }
 .tabel-neimportant {
     background-color: #fff;
+}
+.legend {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.buttons {
+    display: flex;
+    margin-top: 30px;
+
+}
+.button {
+    background-color: #25975A;
+    border-radius: 2px;
+    margin-right: 10px;
+    padding-inline: 7px;
+}
+.button-first {
+    border: 1px solid #fff;
+}
+.button-second {
+    background-color: #f0506e;
+}
+.button:hover {
+    cursor: pointer;
+}
+
+
+.button-last {
+    margin-right: 0;
+    background-color: rgb(123, 70, 105);
+}
+.timeout {
+    margin-top: 20px;
+    height: 54px;
+    background-color: #EDFBF6;
+    color: #32D296;
+    padding: 20px 12px;
+    font-size: 14px;
+
+
+
 }
