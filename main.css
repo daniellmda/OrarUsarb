@@ -6,7 +6,7 @@
 
 body {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 1.4;
     font-size: 16px;
@@ -99,5 +99,30 @@ select {
     font-weight: 700;
     color: #666666;
     display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
 }
-.
+.orar-calendar {
+    width: 456px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.tabel-important, .tabel-neimportant {
+    background-color: #25975A;
+    border: solid #666 1px;
+    text-align: center;
+}
+.long {
+    width: 100px;
+}
+.tabel-important {
+    border: solid #fff 1px;
+}
+.tabel-neimportant {
+    background-color: #fff;
+}
