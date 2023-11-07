@@ -34,7 +34,7 @@ header {
 }
 h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 900;
     color: #666;
     font-style: normal;
@@ -49,6 +49,11 @@ h1 {
     background-color: #25975A;
     padding: 10px 30px 11px;
     text-align: center;
+}
+.main:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
 }
 h2 {
     font-size: 14px;
