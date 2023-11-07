@@ -225,3 +225,32 @@ select {
     align-items: center;
     line-height: 2;
 }
+.ep {
+    background-color: orange;
+}
+.s {
+    background-color: #25975A;
+}
+.p {
+    background-color: #f0506e;
+}
+.l {
+    background-color: rgb(30, 201, 201);
+}
+.strong {
+    font-weight: 700;
+    font-size: 14px;
+}
+.light {
+    font-weight: 400;
+    font-size: 14px;
+}
+.right-side .tabel-neimportant {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    border: 0;
+}
